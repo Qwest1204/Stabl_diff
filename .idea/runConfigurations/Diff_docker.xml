@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Diff-docker" type="docker-deploy" factoryName="dockerfile" singleton="false" server-name="Docker">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="command" value="" />
+        <option name="containerName" value="Diff-docker" />
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl />
+          </list>
+        </option>
+        <option name="commandLineOptions" value="-p 5000" />
+        <option name="sourceFilePath" value="Dockerfile" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
